@@ -42,5 +42,16 @@ During the development of this project, AI-powered tools were utilized to assist
 ### Specific AI Contributions
 - **Bootstrap Navbar Transparency**: AI provided guidance on how to adjust the `background-color` property using RGBA values to achieve the desired level of transparency in the navbar.
 
+## Credits and Acknowledgments
+
+### Images
+The images used in this project are sourced from various providers and are used under their respective licenses. Here are the details:
+
+- **Logo**:
+  - **Source**: [Pixabay](https://pixabay.com/illustrations/ai-generated-woman-workout-gym-8703055/)
+  - **Artist**: [Artist's Name](Ai Generated Woman Workout royalty-free stock illustration.)
+  - **License**: [License Details](https://pixabay.com/service/license-summary/)
+
+
 
 
