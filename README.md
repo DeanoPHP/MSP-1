@@ -30,3 +30,17 @@ Wireframes were designed using [Balsamiq](https://balsamiq.cloud/#)
 | Desktop | Tablet | Mobile |
 |---------|------|--------|
 | ![Desktop](assets/wireframes/desktop.png) | ![Tablet](assets/wireframes/tablet.png) | ![Mobile](assets/wireframes/mobile.png) |
+
+## Technologies Used
+- HTML
+- CSS
+- Bootstrap
+
+## Assistance from AI
+During the development of this project, AI-powered tools were utilized to assist with certain aspects, including the design and implementation of a transparent navbar using Bootstrap. This assistance helped to optimize the solution and implement best practices in web development.
+
+### Specific AI Contributions
+- **Bootstrap Navbar Transparency**: AI provided guidance on how to adjust the `background-color` property using RGBA values to achieve the desired level of transparency in the navbar.
+
+
+

@@ -4,7 +4,17 @@
     padding: 0;
 }
 
+.navbar.bg-dark {
+    background-color: rgba(0, 0, 0, 0.5) !important; /* Semi-transparent black */
+}
+
 section {
     width: 100vw;
     height: 100vh;
+}
+
+#hero {
+    background-image: url('/assets/images/msp-1-main-img.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
