@@ -22,3 +22,11 @@ This is a fictitious gym website created as part of a Web Development cours with
 
 4. Responsive Design
     * As a visitor I want to to be able to use all my devices to view the gyms website so responsive design is a must.
+
+## Skeleton
+Wireframes were designed using [Balsamiq](https://balsamiq.cloud/#)
+<br><br>
+
+| Desktop | Tablet | Mobile |
+|---------|------|--------|
+| ![Desktop](assets/wireframes/desktop.png) | ![Tablet](assets/wireframes/tablet.png) | ![Mobile](assets/wireframes/mobile.png) |
