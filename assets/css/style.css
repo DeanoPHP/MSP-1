@@ -1,11 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* ---------------------------------------Global Variables */
+:root {
+    --primary-font-color: #fafafa;
+    --link-button-color: hsl(256, 84%, 45%);
+    --gold-color: #ffd700;
+    --heading-color: black;
+    --sub-heading-color: #FFED8A;
+    --font-family-primary: 'Exo', sans-serif;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-.navbar.bg-dark {
-    background-color: rgba(0, 0, 0, 0.5) !important; /* Semi-transparent black */
+body {
+    background-color: #eeeeee;
 }
 
 section {
@@ -13,9 +25,67 @@ section {
     height: 100vh;
 }
 
+/* ---------------------------------------navbar */
+/* Logo */
+.navbar-brand {
+    color: var(--gold-color);
+    font-size: 1.5em;
+    font-family: var(--font-family-primary);
+}
+
+.navbar.bg-dark {
+    background-color: rgba(0, 0, 0, 0.5) !important; /* Semi-transparent black */
+}
+
+.nav-link:hover {
+    border-bottom: 1px solid var(--gold-color);
+    color: var(--gold-color)
+}
+
+.nav-link {
+    color: var(--primary-font-color);
+}
+
+/* This needs fixing */
+nav-link[href='#hero']:target {
+    border-bottom: 1px solid var(--gold-color);
+    color: var(--gold-color);
+}
+
+/* ---------------------------------------hero section */
 #hero {
     background-image: url('/assets/images/hero-image.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.text-overlay h1 {
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: var(--font-family-primary);
+}
+
+.text-overlay p {
+    font-size: 1.5em;
+    color: var(--primary-font-color);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.text-overlay span.gold {
+    color: var(--gold-color); 
+}
+
+#about {
+    background-color: rgb(255, 215, 0);
 }
