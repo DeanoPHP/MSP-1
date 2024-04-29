@@ -28,9 +28,11 @@ section {
 /* ---------------------------------------navbar */
 /* Logo */
 .navbar-brand {
-    color: var(--gold-color);
     font-size: 1.5em;
     font-family: var(--font-family-primary);
+    color: var(--gold-color);
+    font-weight: bold;
+    letter-spacing: 0.3em;
 }
 
 .navbar.bg-dark {
@@ -55,8 +57,9 @@ section {
 }
 
 .text-overlay {
-    /* height: 40%;
-    height: 60%; */
+    background-color: rgba(10, 10, 10, 0.2);
+    padding: 20px;
+    border-radius: 8px;
     position: absolute;
     top: 50%;
     left: 30%;
@@ -70,12 +73,15 @@ section {
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     font-family: var(--font-family-primary);
+    letter-spacing: 0.2em;
 }
 
 .text-overlay p {
     font-size: 1.5em;
-    color: var(--primary-font-color);
+    /* color: var(--primary-font-color); */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    letter-spacing: .2em;
+    color: rgb(227, 236, 238);
 }
 
 .text-overlay span.gold {
@@ -84,6 +90,6 @@ section {
 
 @media only screen and (max-width: 768px) {
     .text-overlay {
-        margin-left: 7%
+        margin-left: 10%
     }
 }
