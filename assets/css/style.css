@@ -34,7 +34,7 @@ section {
 }
 
 .navbar.bg-dark {
-    background-color: rgba(0, 0, 0, 0.5) !important; /* Semi-transparent black */
+    background-color: rgba(0, 0, 0, 0.5) !important; 
 }
 
 .nav-link:hover {
@@ -46,12 +46,6 @@ section {
     color: var(--primary-font-color);
 }
 
-/* This needs fixing */
-nav-link[href='#hero']:target {
-    border-bottom: 1px solid var(--gold-color);
-    color: var(--gold-color);
-}
-
 /* ---------------------------------------hero section */
 #hero {
     background-image: url('/assets/images/hero-image.jpg');
@@ -61,6 +55,8 @@ nav-link[href='#hero']:target {
 }
 
 .text-overlay {
+    /* height: 40%;
+    height: 60%; */
     position: absolute;
     top: 50%;
     left: 30%;
@@ -86,6 +82,8 @@ nav-link[href='#hero']:target {
     color: var(--gold-color); 
 }
 
-#about {
-    background-color: rgb(255, 215, 0);
+@media only screen and (max-width: 768px) {
+    .text-overlay {
+        margin-left: 7%
+    }
 }
