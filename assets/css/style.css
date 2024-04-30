@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 /* ---------------------------------------Global Variables */
@@ -7,18 +7,23 @@
     --primary-font-color: #707070;
     --gold-color: #C7A64A;
     --sub-heading-color: #5C501F;
-    --font-family-primary: "Exo", sans-serif;
+    --font-family-body: "Roboto", sans-serif;
     --h1-font-family: "Anonymous Pro", sans-serif;
 }
 
 h1 {
-   color: var(--gold-color) ;   
-   font-family: var(--h1-font-family);
+    color: var(--gold-color);
+    font-family: var(--h1-font-family);
+    letter-spacing: .2em;
 }
 
 h4 {
     color: var(--sub-heading-color);
     font-family: var(--h1-font-family);
+}
+
+p, li {
+    font-family: var(--font-family-body);
 }
 
 * {
@@ -37,31 +42,28 @@ section {
 }
 
 /* ---------------------------------------navbar */
-/* ul {
-    padding: 0 8%;
-} */
-
 /* Logo */
 .navbar-brand {
     font-size: 1;
-    font-family: "Anonymous Pro", sans-serif;
-    font-family: var(--font-family-primary);
+    font-family: var(--h1-font-family);
     color: var(--gold-color);
     font-weight: bold;
     letter-spacing: 0.3em;
 }
 
 .navbar.bg-dark {
-    background-color: rgba(0, 0, 0, 0.5) !important; 
+    background-color: rgba(0, 0, 0, 0.5) !important;
 }
 
 .nav-link:hover {
     border-bottom: 1px solid var(--gold-color);
-    color: var(--gold-color)
+    color: var(--gold-color);
 }
 
 .nav-link {
     color: var(--link-font-color);
+    font-family: var(--h1-font-family);
+    font-size: 1.2em;
 }
 
 /* ---------------------------------------hero section */
@@ -88,26 +90,24 @@ section {
     font-size: 2.4em;
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    font-family: var(--font-family-primary);
+    font-family: var(--h1-font-family);
     letter-spacing: 0.2em;
 }
 
 .text-overlay p {
     font-size: 1em;
-    /* color: var(--primary-font-color); */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     letter-spacing: .2em;
     color: rgb(227, 236, 238);
 }
 
 .text-overlay span.gold {
-    color: var(--gold-color); 
+    color: var(--gold-color);
 }
 
 /* ---------------------------------------hero section */
 .about-info {
     margin-top: 120px;
-    font-family: "Anonymous Pro", sans-serif;
 }
 
 .about-info h4 {
@@ -119,7 +119,7 @@ section {
     font-size: 1.4em;
     line-height: 1.4em;
     margin: 0 20px;
-    color: var(--primary-font-color)
+    color: var(--primary-font-color);
 }
 
 .about-info button {
@@ -136,7 +136,6 @@ section {
 
 .personal-trainers h1 {
     text-align: center;
-    margin-bottom: 30px;
 }
 
 .trainer {
@@ -152,8 +151,8 @@ section {
     background-size: cover;
 }
 
-.row:nth-child(2) .trainer {
-    background-image: url("/assets/images/trainer2.jpg");
+.row:nth-child(3) .trainer {
+    background-image: url("/assets/images/trainer3.jpg");
     background-size: cover;
 }
 
@@ -167,9 +166,40 @@ section {
     margin-top: 120px;
 }
 
+.contact-form label {
+    font-size: 1.2em;
+    letter-spacing: .1em;
+    color: var(--sub-heading-color);
+    font-family: var(--h1-font-family)
+}
+
 .contact-form input,
 .contact-form textarea {
     margin-bottom: 10px;
+}
+
+.contact-form input:focus, 
+.contact-form textarea:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: var(--gold-color);
+}
+
+.map-container {
+    margin-top: 120px;
+    width: 100%;
+    height: 90%;
+}
+
+gmp-map {
+    height: 100%;
+}
+
+/* ---------------------------------------footer */
+footer {
+    width: 100vw;
+    height: 200px;
+    background-color: #333;
 }
 
 @media only screen and (max-width: 767px) {
@@ -196,5 +226,9 @@ section {
     .trainer {
         width: 60%;
         margin: 20px auto;
+    }
+
+    gmp-map {
+        height: 320px;
     }
 }
