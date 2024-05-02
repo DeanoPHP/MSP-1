@@ -195,6 +195,12 @@ section {
     color: var(--link-font-color);
 }
 
+.open-hours {
+    margin: 50px auto;
+    font-size: 1.4em;
+    font-family: var(--h1-font-family);
+}
+
 /* ---------------------------------------Contact */
 .contact-info {
     margin-top: 120px;
