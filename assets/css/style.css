@@ -46,7 +46,7 @@ section {
 .team-info,
 .contact-info, 
 .map-container {
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 /* ---------------------------------------navbar */
@@ -122,9 +122,13 @@ section {
 }
 
 /* ---------------------------------------about section */
+.about-info hr {
+    margin-bottom: 30px;
+}
+
 .about-info h4 {
     color: var(--sub-heading-color);
-    margin: 30px 0 20px 0;
+    margin: 50px 0 20px 0;
 }
 
 .about-info p {
@@ -135,11 +139,15 @@ section {
 }
 
 .about-info button {
-    margin: 30px 30px;
+    margin: 50px 30px;
 }
 
 .founder h1 {
     text-align: center;
+}
+
+.founder .row {
+    margin-top: 50px;
 }
 
 .trainer {
@@ -150,14 +158,13 @@ section {
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
-.row:nth-child(3) .trainer {
+.trainer {
     background-image: url("/assets/images/trainer3.jpg");
     background-size: cover;
 }
 
 /* ---------------------------------------The Gym section */
 #gym .container {
-    margin-top: 60px;
     position: relative;
 }
 
@@ -166,8 +173,8 @@ section {
 } 
 
 .gym-gallery {
-    /* need to change this */
-    margin-left: 40px;
+    width: 70%;
+    margin: 30px auto;
 }
 
 .image-container {
