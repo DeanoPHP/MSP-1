@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 /* ---------------------------------------Global Variables */
 :root {
     --link-font-color: #fafafa;
@@ -9,6 +15,10 @@
     --sub-heading-color: #5C501F;
     --font-family-body: "Roboto", sans-serif;
     --h1-font-family: "Anonymous Pro", sans-serif;
+}
+
+section {
+    height: 100vh;
 }
 
 h1 {
@@ -27,18 +37,8 @@ li {
     font-family: var(--font-family-body);
 }
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 body {
     background-color: #eeeeee;
-}
-
-section {
-    height: 100vh;
 }
 
 .about-info,
@@ -84,7 +84,7 @@ section {
 .nav-link:hover {
     border-right: 2px solid #dc3545;
     color: #dc3545;
-    font-size: 1.4em;
+    font-size: 1.3em;
 }
 
 /* ---------------------------------------hero section */
@@ -173,7 +173,6 @@ section {
     border: none;
     height: 1px;
     background-color: #fafafa;
-    margin-bottom: 30px;
 }
 
 #gym .container {
@@ -205,7 +204,7 @@ section {
     border: 1px solid black;
     margin: 4px;
     width: 31%;
-    height: 180px;
+    height: 220px;
     padding: 0px;
     background-size: cover;
     background-position: center center;
@@ -236,18 +235,6 @@ section {
     background-image: url('/assets/images/equip-6.webp');
 }
 
-.image-container:nth-child(7) {
-    background-image: url('/assets/images/equip-7.webp');
-}
-
-.image-container:nth-child(8) {
-    background-image: url('/assets/images/equip-8.webp');
-}
-
-.image-container:nth-child(9) {
-    background-image: url('/assets/images/equip-9.webp');
-}
-
 .image-container:hover {
     border: 6px solid var(--gold-color);
     background-position: bottom center;
@@ -261,14 +248,16 @@ section {
 .pt-staff-container {
     position: relative;
     width: 100%;
-    height: 280px;
+    height: 250px;
     border: 1px solid grey;
+    background-color: #fafafa;
     margin-bottom: 20px;
 }
 
 .pt-image {
-    width: 140px;
-    height: 140px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
     position: absolute;
     top: 10px;
     left: 10px;
@@ -341,14 +330,6 @@ footer .col-sm-3 {
     }
 
     section {
-        min-height: 100vh;
-    }
-
-    #hero,
-    #about,
-    #gym,
-    #team,
-    #contact {
         height: auto;
     }
 
@@ -382,17 +363,40 @@ footer .col-sm-3 {
     }
 }
 
-/* For iPads (both vertical and horizontal orientations) */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1) {
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    section  {
+        height: auto;
+    }
+
+    #contact .container, #about .container {
+        margin-bottom: 30px;
+    }
+}
+
+/* ipad mini */
+@media only screen and (min-width: 1180px) and (max-width: 1180px) {
     section {
-        height: 100%;
+        height: auto;
     }
 
-    h1 {
-        text-align: center;
+    #contact .container, #about .container {
+        margin-bottom: 30px;
+    }
+  }
+
+/* For iPad Pro 1366x1024 - Landscape */
+@media only screen 
+  and (min-device-width : 1366px) 
+  and (max-device-width : 1366px) 
+  and (min-device-height : 1024px) 
+  and (max-device-height : 1024px) 
+  and (orientation : landscape) {
+    section {
+        height: auto;
     }
 
-    gmp-map {
-        height: 80%;
+    #contact .container, #about .container {
+        margin-bottom: 30px;
     }
 }
