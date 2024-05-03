@@ -67,11 +67,6 @@ section {
     background-color: rgba(0, 0, 0, 0.5) !important;
 }
 
-.nav-link:hover {
-    border-bottom: 1px solid var(--gold-color);
-    color: var(--gold-color);
-}
-
 .navbar-nav {
     text-align: center;
 }
@@ -80,6 +75,15 @@ section {
     color: var(--link-font-color);
     font-family: var(--h1-font-family);
     font-size: 1.2em;
+    transition: font-size 1s ease;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    border-right: 2px solid #dc3545;
+    color: #dc3545;
+    font-size: 1.6em;
 }
 
 /* ---------------------------------------hero section */
@@ -237,6 +241,10 @@ section {
     outline: none;
     box-shadow: none;
     border-color: var(--gold-color);
+}
+
+.contact-form button {
+    margin-top: 20px;
 }
 
 .map-container {
