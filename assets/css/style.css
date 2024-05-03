@@ -87,11 +87,19 @@ section {
 }
 
 /* ---------------------------------------hero section */
-#hero {
+#hero .container-fluid {
+    --bs-gutter-x: 0;
+}
+
+.hero-image {
     background-image: url('/assets/images/man.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-attachment: fixed;
 }
 
 .text-overlay {
@@ -408,9 +416,16 @@ footer .col-sm-3 {
     }
 }
 
-/* Tablet media query */
-/* @media only screen and (min-width: 768px) and (max-width: 1024px) {
+/* For iPads (both vertical and horizontal orientations) */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
     section {
-        max-height: 900px;
+        height: 100%; 
     }
-} */
+
+    gmp-map {
+        height: 80%;
+    }
+} 
