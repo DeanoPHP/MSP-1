@@ -46,7 +46,7 @@ section {
 .team-info,
 .contact-info, 
 .map-container {
-    margin-top: 60px;
+    margin-top: 100px;
 }
 
 /* ---------------------------------------navbar */
@@ -122,10 +122,6 @@ section {
 }
 
 /* ---------------------------------------about section */
-/* .about-info {
-    position: relative;
-} */
-
 .about-info h4 {
     color: var(--sub-heading-color);
     margin: 30px 0 20px 0;
@@ -160,7 +156,27 @@ section {
 }
 
 /* ---------------------------------------The Gym section */
+#gym .container {
+    margin-top: 60px;
+    position: relative;
+}
 
+.gym-header h1, .gym-header p {
+    text-align: center;
+} 
+
+.gym-gallery {
+    /* need to change this */
+    margin-left: 40px;
+}
+
+.image-container {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 4px;
+    width: 31%;
+    height: 140px;
+} 
 
 /* ---------------------------------------The Team */
 .trainer-image {
