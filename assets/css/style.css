@@ -97,7 +97,7 @@ body {
 }
 
 .hero-image {
-    background-image: url('/assets/images/man.jpg');
+    background-image: url('../images/hero-image.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -168,7 +168,7 @@ body {
 }
 
 .trainer {
-    background-image: url("/assets/images/trainer3.jpg");
+    background-image: url("../images/trainer3.jpg");
     background-size: cover;
 }
 
@@ -216,27 +216,27 @@ body {
 }
 
 .image-container:nth-child(1) {
-    background-image: url('/assets/images/equip-1.webp');
+    background-image: url('../images/equip-1.webp');
 }
 
 .image-container:nth-child(2) {
-    background-image: url('/assets/images/equip-2.webp');
+    background-image: url('../images/equip-2.webp');
 }
 
 .image-container:nth-child(3) {
-    background-image: url('/assets/images/equip-3.webp');
+    background-image: url('../images/equip-3.webp');
 }
 
 .image-container:nth-child(4) {
-    background-image: url('/assets/images/equip-4.webp');
+    background-image: url('../images/equip-4.webp');
 }
 
 .image-container:nth-child(5) {
-    background-image: url('/assets/images/equip-5.webp');
+    background-image: url('../images/equip-5.webp');
 }
 
 .image-container:nth-child(6) {
-    background-image: url('/assets/images/equip-6.webp');
+    background-image: url('../images/equip-6.webp');
 }
 
 .image-container:hover {
@@ -257,6 +257,10 @@ body {
     margin-bottom: 20px;
     padding: 10px;
     word-wrap: break-word;
+}
+
+.pt-staff-container:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
 .pt-image {
