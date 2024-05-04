@@ -94,16 +94,16 @@ body {
 /* ---------------------------------------hero section */
 #hero .container-fluid {
     --bs-gutter-x: 0;
+    height: 100vh;
 }
 
 .hero-image {
-    background-image: url('../images/man.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
     width: 100vw;
     height: 100vh;
+    background-image: url('../images/man.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
 }
 
 .text-overlay {
@@ -330,12 +330,6 @@ footer .col-sm-3 {
 
 /* Mobile Media Queries */
 @media (max-width: 768px) {
-
-    .hero-image {
-        background-size: cover;
-        background-position: bottom center;
-    }
-
     /* Global Setting */
     h1 {
         text-align: center;
