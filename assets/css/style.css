@@ -333,7 +333,7 @@ footer .col-sm-3 {
 
     .hero-image {
         background-size: cover;
-        background-position: center;
+        background-position: bottom center;
     }
 
     /* Global Setting */
