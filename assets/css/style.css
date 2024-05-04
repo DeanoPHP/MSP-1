@@ -97,14 +97,13 @@ body {
 }
 
 .hero-image {
-    background-image: url('../images/hero-image.jpg');
+    background-image: url('../images/man.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     background-attachment: fixed;
     width: 100vw;
     height: 100vh;
-    background-attachment: fixed;
 }
 
 .text-overlay {
@@ -331,6 +330,10 @@ footer .col-sm-3 {
 
 /* Mobile Media Queries */
 @media (max-width: 768px) {
+
+    .hero-image {
+        background-position: center right;
+    }
 
     /* Global Setting */
     h1 {
