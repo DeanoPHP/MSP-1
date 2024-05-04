@@ -332,7 +332,8 @@ footer .col-sm-3 {
 @media (max-width: 768px) {
 
     .hero-image {
-        background-position: center right;
+        background-size: cover;
+        background-position: center;
     }
 
     /* Global Setting */
