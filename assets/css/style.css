@@ -98,15 +98,15 @@ body {
 
 .hero-section {
     position: relative;
-    height: 100vh; 
+    height: 100vh;
     width: 100vw;
 }
 
 .hero-image {
-    background-image: url('../images/man.jpg'); 
+    background-image: url('../images/man.jpg');
     width: 100%;
     height: 100%;
-    background-position: top center; 
+    background-position: top center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -337,6 +337,7 @@ footer .col-sm-3 {
 
 /* Mobile Media Queries */
 @media (max-width: 768px) {
+
     /* Global Setting */
     h1 {
         text-align: center;
@@ -378,11 +379,12 @@ footer .col-sm-3 {
 
 
 @media (min-width: 768px) and (max-width: 1024px) {
-    section  {
+    section {
         height: auto;
     }
 
-    #contact .container, #about .container {
+    #contact .container,
+    #about .container {
         margin-bottom: 30px;
     }
 }
@@ -393,23 +395,20 @@ footer .col-sm-3 {
         height: auto;
     }
 
-    #contact .container, #about .container {
+    #contact .container,
+    #about .container {
         margin-bottom: 30px;
     }
-  }
+}
 
 /* For iPad Pro 1366x1024 - Landscape */
-@media only screen 
-  and (min-device-width : 1366px) 
-  and (max-device-width : 1366px) 
-  and (min-device-height : 1024px) 
-  and (max-device-height : 1024px) 
-  and (orientation : landscape) {
+@media only screen and (min-device-width : 1366px) and (max-device-width : 1366px) and (min-device-height : 1024px) and (max-device-height : 1024px) and (orientation : landscape) {
     section {
         height: auto;
     }
 
-    #contact .container, #about .container {
+    #contact .container,
+    #about .container {
         margin-bottom: 30px;
     }
 }

@@ -1,5 +1,8 @@
 # Gold's Gym
 
+![Responsive](assets/images/responsive.png)
+[Click here to view the live website](https://deanophp.github.io/MSP-1/)
+
 ## Overview
 Welcome to the repository for Gold's Gym, a modern and dynamic gym located at the heart of the city, dedicated to empowering individuals through fitness. Our website serves as a virtual extension of our physical space, providing visitors with detailed information about our facilities, services, and fitness programs. The website features responsive design, ensuring a seamless experience across all devices, from desktops to mobile phones.
 
