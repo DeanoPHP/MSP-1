@@ -107,6 +107,16 @@ Here is an example of how to apply colours and fonts:
 }
 ```
 
+## Future features
+- Navbar style when scrolling
+- Gallery with better functionality
+- Register and login system
+- Bookings system
+- Access My Membership Information
+- Track My Workout Progress
+- Purchase Supplements Online
+- Online support
+
 ## Assistance from AI
 During the development of this project, AI-powered tools were utilized to assist with certain aspects, including the design and implementation of a transparent navbar using Bootstrap. This assistance helped to optimize the solution and implement best practices in web development.
 
