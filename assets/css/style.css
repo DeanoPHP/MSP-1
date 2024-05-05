@@ -10,7 +10,6 @@
 /* ---------------------------------------Global Variables */
 :root {
     --link-font-color: #fafafa;
-    --primary-font-color: #707070;
     --gold-color: #C7A64A;
     --sub-heading-color: #5C501F;
     --font-family-body: "Roboto", sans-serif;
@@ -78,8 +77,8 @@ body {
 
 .nav-link {
     color: var(--link-font-color);
-    font-family: var(--h1-font-family);
-    font-size: 1.2em;
+    font-family: var(--font-family-body);
+    font-size: 1em;
     transition: font-size 1s ease;
     margin-right: 20px;
     font-weight: bold;
