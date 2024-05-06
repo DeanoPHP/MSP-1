@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 * {
@@ -368,7 +368,7 @@ footer .col-sm-3 {
 }
 
 /* Mobile Media Queries */
-@media (max-width: 768px) {
+@media only screen and (max-device-width: 768px) {
 
     /* Global Setting */
     h1 {
@@ -410,7 +410,7 @@ footer .col-sm-3 {
 }
 
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
     section {
         height: auto;
     }
