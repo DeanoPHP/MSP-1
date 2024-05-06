@@ -315,6 +315,10 @@ body {
     height: 90%;
 }
 
+.required {
+    color: red;
+}
+
 gmp-map {
     height: 90%;
     margin-bottom: 30px;

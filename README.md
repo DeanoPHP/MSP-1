@@ -145,6 +145,17 @@ form-submitted.html
 style.css
 ![style.css](./assets/images/testing/css.png)
 
+## Functional Testing
+| Action | Expected Behaviour | Pass/Fail |
+| ------ | ------------------ | --------- | 
+| check onload | I expect the browser to load my website and be on the index section | Pass |
+| Home link | I expect the browser to go to the hero section | Pass |
+| About link | I expect the browser to load the about section | Pass |
+| The Gym link | I expect the brower to load the gym section | Pass |
+| Team link | I expect the browser to go to the team section | Pass |
+| Contact link | I expect the browser to go to the contact section | Pass | 
+
+
 
 
 
