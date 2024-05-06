@@ -6,7 +6,7 @@
 ## Overview
 Welcome to the repository for Gold's Gym, a modern and dynamic gym located at the heart of the city, dedicated to empowering individuals through fitness. Our website serves as a virtual extension of our physical space, providing visitors with detailed information about our facilities, services, and fitness programs. The website features responsive design, ensuring a seamless experience across all devices, from desktops to mobile phones.
 
-This is a fictitious gym website created as part of a Web Development cours with Code Institute. It has been designed to simulate a real-world application, this website serves as a showcase my skills in HTML, and CSS.
+This is a fictitious gym website created as part of a Web Development course with Code Institute. It has been designed to simulate a real-world application, this website serves as a showcase of my skills in HTML, and CSS.
 
 ## User Experience (UX)
 
