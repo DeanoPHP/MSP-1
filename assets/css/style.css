@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&display=swap');
 
 * {
     box-sizing: border-box;
@@ -368,7 +368,7 @@ footer .col-sm-3 {
 }
 
 /* Mobile Media Queries */
-@media only screen and (max-device-width: 768px) {
+@media only screen and (max-width: 768px) {
 
     /* Global Setting */
     h1 {
@@ -434,7 +434,7 @@ footer .col-sm-3 {
 }
 
 /* For iPad Pro 1366x1024 - Landscape */
-@media only screen and (min-device-width : 1366px) and (max-device-width : 1366px) and (min-device-height : 1024px) and (max-device-height : 1024px) and (orientation : landscape) {
+@media only screen and (min-width: 1366px) and (max-width: 1366px) and (min-height: 1024px) and (max-height: 1024px) and (orientation: landscape) {
     section {
         height: auto;
     }
