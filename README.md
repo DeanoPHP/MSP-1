@@ -133,6 +133,18 @@ The images used in this project are sourced from various providers and are used 
   - **Artist**: [Artist's Name](Ai Generated Woman Workout royalty-free stock illustration.)
   - **License**: [License Details](https://pixabay.com/service/license-summary/)
 
+## Testing
+[w3c Markup Validation](https://validator.w3.org/)
+
+index.html
+![index.html](./assets/images/testing/index.png)
+
+form-submitted.html
+![form-submitted.html](./assets/images/testing/form-submitted.png)
+
+style.css
+![style.css](./assets/images/testing/css.png)
+
 
 
 
