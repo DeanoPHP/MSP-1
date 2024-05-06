@@ -154,7 +154,14 @@ style.css
 | The Gym link | I expect the brower to load the gym section | Pass |
 | Team link | I expect the browser to go to the team section | Pass |
 | Contact link | I expect the browser to go to the contact section | Pass | 
-
+| Test for hero section Button | I expect the button to open a Modal with a message saying the functionality is under construction and to please use the contact form | Pass |
+| Test for team section Button | I expect the button to open a Modal with a message saying the functionality is under construction and to please use the contact form | Pass |
+| Test for Contact Section Button | Implemented functionality test to verify that clicking the button in the contact section redirects to the "form-submitted.html" page when all form inputs are filled out as expected. | Pass |
+| Test Full Name required | Implemented functionality to verify whether form would submit if the input field is empty | Pass | 
+| Test Email required | Implemented functionality to verify whether form would submit if the input field is empty | Pass | 
+| Test Tel required | Implemented functionality to verify whether form would submit if the input field is empty | Pass | 
+| Test Message required | Implemented functionality to verify whether form would submit if the input field is empty | Pass | 
+| Implement Iframe map functionality | Added functionality test to ensure that the iframe map in the contact section functions correctly, displaying the map as expected and allowing interaction with it. | Pass |
 
 
 
