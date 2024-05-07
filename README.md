@@ -163,6 +163,18 @@ style.css
 | Test Message required | Implemented functionality to verify whether form would submit if the input field is empty | Pass | 
 | Implement Iframe map functionality | Added functionality test to ensure that the iframe map in the contact section functions correctly, displaying the map as expected and allowing interaction with it. | Pass |
 
+## Lighthouse report
+<hr>
+Single Page Navigation
+
+
+![single page navigation](./assets/images/testing/single-page-navigation.png)
+
+form-submitted.html
+![form-submitted.html](./assets/images/testing/submitted.png)
+
+
+
 
 
 
