@@ -42,15 +42,24 @@ Wireframes were designed using [Balsamiq](https://balsamiq.cloud/#)
 | ----------------------------------------- | --------------------------------------- | --------------------------------------- |
 | ![Desktop](assets/wireframes/desktop.png) | ![Tablet](assets/wireframes/tablet.png) | ![Mobile](assets/wireframes/mobile.png) |
 
-## Technologies Used
-- HTML
-- CSS
-- Bootstrap
-- Animate.css
-- FontAwesome
-- Google Fonts
+## Technologies and Tools
+- HTML/CSS - For stucturing and design
+- Bootstrap - Framework for designing responsive and mobile-first web pages.
+- Animate.css - For visual effects
+- FontAwesome - For icons
+- Google Fonts - For fonts
+- [Pixabay](https://pixabay.com) - For images
 
-## Design
+## Design Overview
+
+The website for Gold's Gym is crafted as a single-page layout to provide a streamlined, user-friendly experience. This design approach eliminates the need for a back button, as all content is accessible from a single page. To enhance navigation and accessibility, the navbar is fixed at the top of the page, ensuring that users can easily move between sections without scrolling back to the top.
+
+### Imagery and Layout
+- Hero Image: At the forefront of the homepage is a compelling hero image of a bodybuilder, chosen for its motivational impact and relevance to the fitness theme.
+- Responsive Navigation: Utilizing Bootstrap, the navbar is designed to be responsive across devices. On smaller screens, it transforms into a hamburger menu, making it functional and space-efficient without sacrificing accessibility.
+
+### Section Design
+Gym Section: The gym section features a black background, which not only adds visual depth but also creates a seamless transition from the dark tones of the hero image. This design decision maintains a cohesive flow throughout the site, preventing abrupt changes in the visual experience.
 
 ### Color Palette
   - Gold: #C7A64A - Used for h1 tags and logo;
@@ -58,7 +67,7 @@ Wireframes were designed using [Balsamiq](https://balsamiq.cloud/#)
   - Light grey: #fafafa - Used for links;
   - very light grey: #eeeeee - used for body;
 
-## Font Usage
+### Font Usage
 
 Our project utilizes a combination of FontAwesome, Roboto, and Anonymous Pro to ensure clear readability, aesthetic appeal, and functional design across all elements of our website.
 
@@ -107,6 +116,14 @@ Here is an example of how to apply colours and fonts:
 }
 ```
 
+### Images
+The images used in this project are sourced from various providers and are used under their respective licenses. Here are the details:
+
+- **Logo**:
+  - **Source**: [Pixabay](https://pixabay.com/illustrations/ai-generated-woman-workout-gym-8703055/)
+  - **Artist**: [Artist's Name](Ai Generated Woman Workout royalty-free stock illustration.)
+  - **License**: [License Details](https://pixabay.com/service/license-summary/)
+
 ## Future features
 - Navbar style when scrolling
 - Gallery with better functionality
@@ -123,16 +140,6 @@ During the development of this project, AI-powered tools were utilized to assist
 ### Specific AI Contributions
 - **Bootstrap Navbar Transparency**: AI provided guidance on how to adjust the `background-color` property using RGBA values to achieve the desired level of transparency in the navbar.
 
-## Credits and Acknowledgments
-
-### Images
-The images used in this project are sourced from various providers and are used under their respective licenses. Here are the details:
-
-- **Logo**:
-  - **Source**: [Pixabay](https://pixabay.com/illustrations/ai-generated-woman-workout-gym-8703055/)
-  - **Artist**: [Artist's Name](Ai Generated Woman Workout royalty-free stock illustration.)
-  - **License**: [License Details](https://pixabay.com/service/license-summary/)
-
 ## Testing
 [w3c Markup Validation](https://validator.w3.org/)
 
@@ -148,14 +155,14 @@ style.css
 ## Functional Testing
 | Action | Expected Behaviour | Pass/Fail |
 | ------ | ------------------ | --------- | 
-| check onload | I expect the browser to load my website and be on the index section | Pass |
-| Home link | I expect the browser to go to the hero section | Pass |
-| About link | I expect the browser to load the about section | Pass |
-| The Gym link | I expect the brower to load the gym section | Pass |
-| Team link | I expect the browser to go to the team section | Pass |
-| Contact link | I expect the browser to go to the contact section | Pass | 
-| Test for hero section Button | I expect the button to open a Modal with a message saying the functionality is under construction and to please use the contact form | Pass |
-| Test for team section Button | I expect the button to open a Modal with a message saying the functionality is under construction and to please use the contact form | Pass |
+| Initial page load | I expect the browser to load my website and be on the index section | Pass |
+| Home link | The browser should navigate to and display the 'Home' section. | Pass |
+| About link | The browser should navigate to and display the 'About' section. | Pass |
+| The Gym link | The browser should navigate to and display the 'Gym' section. | Pass |
+| Team link | The browser should navigate to and display the 'Team' section. | Pass |
+| Contact link | The browser should navigate to and display the 'Contact' section. | Pass | 
+| Test for hero section Button | Upon clicking the button, the Bootstrap modal should be displayed, including all its content and with the correct styling. | Pass |
+| Test for team section Button | Upon clicking the button, the Bootstrap modal should be displayed, including all its content and with the correct styling. | Pass |
 | Test for Contact Section Button | Implemented functionality test to verify that clicking the button in the contact section redirects to the "form-submitted.html" page when all form inputs are filled out as expected. | Pass |
 | Test Full Name required | Implemented functionality to verify whether form would submit if the input field is empty | Pass | 
 | Test Email required | Implemented functionality to verify whether form would submit if the input field is empty | Pass | 
@@ -165,15 +172,17 @@ style.css
 
 ## Lighthouse report
 <hr>
-Single Page Navigation
 
+### Single Page Navigation 
+index.html, about section, gym section, team section, contact section
 
 ![single page navigation](./assets/images/testing/single-page-navigation.png)
 
 form-submitted.html
+
 ![form-submitted.html](./assets/images/testing/submitted.png)
 
-
+## Credits and Acknowledgments
 
 
 
