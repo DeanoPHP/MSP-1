@@ -3,6 +3,13 @@
 
     <head>
         <meta charset="UTF-8">
+        <meta name="description"
+            content="Discover Gold's Gym in Bristol - your premier destination for serious bodybuilding. Founded by champion Dean Manning, our gym offers specialized equipment, expert coaching, and a community dedicated to building champions. Join us to transform your body and life. Book your visit or learn more about our facilities and team today!">
+        <meta name="keywords"
+            content="Gold's Gym, bodybuilding, fitness center, gym in Bristol, Dean Manning, serious bodybuilders, fitness coaching, gym membership">
+        <meta name="author" content="Dean Lark">
+        <meta name="robots" content="index, follow">
+
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script async
@@ -20,7 +27,7 @@
 
     <body>
         <!-- Navbar section -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" role="navigation">
             <a class="navbar-brand" href="#"><span class="gold">Gold's Gym</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,13 +36,13 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#hero">Home</a>
+                        <a class="nav-link" href="#hero" aria-label="Go to the main welcome section">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#gym">The Gym</a>
+                        <a class="nav-link" href="#gym" aria-label="View gym images and details">The Gym</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#team">Team</a>
@@ -51,7 +58,8 @@
         <section id="hero" class="hero-section">
             <div class="container-fluid hero-image">
                 <div class="text-overlay">
-                    <h1 class="animate__animated animate__backInDown">Welcome to <span class="gold">Gold's Gym</span>
+                    <h1 role="heading" aria-level="1" class="animate__animated animate__backInDown">Welcome to <span
+                            class="gold">Gold's Gym</span>
                     </h1>
                     <p class="mt-2">Transform Your Body, Transform Your Life</p>
                     <button type="button" class="btn btn-danger btn-lg" data-bs-toggle="modal"
@@ -66,16 +74,16 @@
                 <div class="row">
                     <div class="col-sm-12 col-md-7 ">
                         <div class="about-info mb-3">
-                            <h1>Our Story</h1>
+                            <h2 role="heading" aria-level="2">Our Story</h2>
                             <hr>
 
-                            <h4>Forging Champions, One Rep at a Time</h4>
+                            <h4 role="heading" aria-level="4">Forging Champions, One Rep at a Time</h4>
                             <p>Located in the dynamic heart of Bristol, Gold's Gym stands as a bastion of strength and
                                 determination for the dedicated bodybuilder. Established in 2015 by world-renowned
                                 bodybuilder Dean Manning, our gym is not just a facility—it's the breeding ground for
                                 champions.</p>
 
-                            <h4>The Foundation of Gold's Gym</h4>
+                            <h4 role="heading" aria-level="4">The Foundation of Gold's Gym</h4>
                             <p>Dean Manning, a multiple-time national bodybuilding champion, founded Gold's Gym after
                                 realizing the need for a training environment that catered specifically to the serious
                                 bodybuilder. Frustrated by mainstream gyms lacking the equipment and atmosphere
@@ -85,7 +93,7 @@
                     </div>
                     <div class="col-sm-12 col-md-5">
                         <div class="container about-info">
-                            <h1>Founder</h1>
+                            <h2 role="heading" aria-level="2">Founder</h2>
                             <hr>
                             <div class="row">
                                 <div class="col-md-12">
@@ -115,7 +123,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="gym-header gym-info">
-                            <h1>Our Gym</h1>
+                            <h2 role="heading" aria-level="2">Our Gym</h2>
                             <hr>
                         </div>
                     </div>
@@ -138,11 +146,11 @@
         <section id="team">
             <div class="container">
                 <div class="row">
-                    <h1 class="team-info">Meet The Team</h1>
+                    <h2 role="heading" aria-level="2" class="team-info">Meet The Team</h2>
                     <div class="col-12 col-md-6">
                         <div class="pt-staff-container">
                             <div class="pt-image" style="background-image: url('./assets/images/trainer1.jpg')"></div>
-                            <h4 style="text-align: center">Sylvan Edwards</h4>
+                            <h4  role="heading" aria-level="4" style="text-align: center">Sylvan Edwards</h4>
                             <p><span class="bold">Coach/Trainer:</span> Guides others in their bodybuilding journey,
                                 providing expertise in exercise techniques, diet plans, and competition preparation.</p>
                             <p><span class="bold">Recovery is Crucial:</span> Stresses the importance of adequate rest
@@ -152,7 +160,7 @@
                     <div class="col-12 col-md-6">
                         <div class="pt-staff-container">
                             <div class="pt-image" style="background-image: url('./assets/images/trainer2.jpg')"></div>
-                            <h4>Pippa Lark</h4>
+                            <h4 role="heading" aria-level="4">Pippa Lark</h4>
                             <p><span class="bold">Physiotherapist: </span> Specializes in the
                                 rehabilitation of injuries common in bodybuilding and advises on preventive measures and
                                 proper form.</p>
@@ -164,7 +172,7 @@
                     <div class="col-12 col-md-6">
                         <div class="pt-staff-container">
                             <div class="pt-image" style="background-image: url('./assets/images/trainer3.jpg')"></div>
-                            <h4>Dean Manning</h4>
+                            <h4 role="heading" aria-level="4">Dean Manning</h4>
                             <p><span class="bold">Athlete/Competitor:</span> Competes in bodybuilding competitions,
                                 focusing on achieving an aesthetically pleasing body according to the standards of the
                                 competition.</p>
@@ -175,7 +183,7 @@
                     </div>
                     <div class="col-12 col-md-6">
                         <div class="pt-staff-container">
-                            <h4>How And Where</h4>
+                            <h4 role="heading" aria-level="4">How And Where</h4>
                             <p><span class="bold">Address:</span> Market Industrial Estate, Yatton, Bristol, BS49 4AL
                             </p>
                             <p><span class="bold">Email:</span> golds-gym@golds.com</p>
@@ -194,33 +202,40 @@
                 <div class="row">
                     <div class="col-sm-12 col-md-6">
                         <div class="contact-info">
-                            <h1>Contact Us!</h1>
+                            <h2 role="heading" aria-level="2">Contact Us!</h2>
                             <hr>
-
                             <form action="form-submitted.html" method="get" class="contact-form">
                                 <div class="form-group">
                                     <label for="fname" class="form-label"><i class="fa-solid fa-user"></i> Full
                                         name:<span class="required">*</span></label>
-                                    <input type="text" class="form-control" id="fname" name="fname" required>
+                                    <input type="text" class="form-control" id="fname" name="fname" required
+                                        aria-label="Full name">   
                                 </div>
+
                                 <div class="form-group">
                                     <label for="email" class="form-label"><i class="fa-solid fa-envelope"></i>
                                         Email:<span class="required">*</span></label>
-                                    <input type="email" name="email" id="email" class="form-control" required>
+                                    <input type="email" name="email" id="email" class="form-control" required
+                                        aria-label="Email">
                                 </div>
+
                                 <div class="form-group">
                                     <label for="tel" class="form-label"><i class="fa-solid fa-phone"></i> Phone
                                         number:<span class="required">*</span></label>
-                                    <input type="tel" name="tel" id="tel" class="form-control" required>
+                                    <input type="tel" name="tel" id="tel" class="form-control" required
+                                        aria-label="Phone">
                                 </div>
+
                                 <div class="form-group">
                                     <label for="message" class="form-label"><i class="fa-solid fa-message"></i>
-                                        Message:<span class="required">*</span></label>
+                                        Message:<span class="required" aria-label="message"
+                                            aria-describedby="emailHelp">*</span></label>
                                     <textarea class="form-control" name="message" id="message" cols="30" rows="3"
                                         required></textarea>
                                 </div>
+
                                 <button type="submit" class="btn btn-danger btn-lg"
-                                    data-bs-toggle="modal">Submit</button>
+                                data-bs-toggle="modal">Submit</button>
                             </form>
                         </div>
                     </div>
@@ -237,19 +252,19 @@
         </section>
 
         <!-- Footer -->
-        <footer id="footer">
+        <footer id="footer" role="contentinfo">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-3"><i class="fa-brands fa-facebook fa-2xl"></i></div>
-                    <div class="col-sm-3"><i class="fa-brands fa-twitter fa-2xl"></i></div>
-                    <div class="col-sm-3"><i class="fa-brands fa-square-instagram fa-2xl"></i></div>
-                    <div class="col-sm-3"><i class="fa-brands fa-youtube fa-2xl"></i></div>
+                    <div class="col-sm-3"><a href="#" target="_blank" aria-label="Visit Gold's Gym on Facebook"><i class="fa-brands fa-facebook fa-2xl"></i></a></div>
+                    <div class="col-sm-3"><a href="#" target="_blank" aria-label="Visit Gold's Gym on Twitter"><i class="fa-brands fa-twitter fa-2xl"></i></a></div>
+                    <div class="col-sm-3"><a href="#" target="_blank" aria-label="Visit Gold's Gym on Instagram"><i class="fa-brands fa-square-instagram fa-2xl"></i></a></div>
+                    <div class="col-sm-3"><a href="#" target="_blank" aria-label="Visit Gold's Gym on Youtube"><i class="fa-brands fa-youtube fa-2xl"></i></a></div>
                 </div>
             </div>
         </footer>
 
         <!-- Modal -->
-        <div class="modal fade" id="join" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        <div class="modal fade" id="join" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog"
             aria-labelledby="staticBackdropLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">

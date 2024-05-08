@@ -49,6 +49,9 @@ Wireframes were designed using [Balsamiq](https://balsamiq.cloud/#)
 - FontAwesome - For icons
 - Google Fonts - For fonts
 - [Pixabay](https://pixabay.com) - For images
+- Gitpod
+- Github
+- Visual Studio
 
 ## Design Overview
 
@@ -182,7 +185,11 @@ form-submitted.html
 
 ![form-submitted.html](./assets/images/testing/submitted.png)
 
-## Credits and Acknowledgments
+### Credits and Acknowledgments
+<!-- @todo -->
+
+### Deployment
+<!-- @todo -->
 
 
 
