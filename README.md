@@ -138,7 +138,7 @@ The images used in this project are sourced from various providers and are used 
 - Online support
 
 ## Assistance from AI
-During the development of this project, AI-powered tools were utilized to assist with certain aspects, including the design and implementation of a transparent navbar using Bootstrap. This assistance helped to optimize the solution and implement best practices in web development.
+During the development of this project, AI-powered tools were utilized to assist with including the design and implementation of a transparent navbar using Bootstrap. This assistance helped to optimize the solution and implement best practices in web development.
 
 ### Specific AI Contributions
 - **Bootstrap Navbar Transparency**: AI provided guidance on how to adjust the `background-color` property using RGBA values to achieve the desired level of transparency in the navbar.
@@ -185,11 +185,81 @@ form-submitted.html
 
 ![form-submitted.html](./assets/images/testing/submitted.png)
 
-### Credits and Acknowledgments
-<!-- @todo -->
+## Deployment
+<hr>
 
-### Deployment
-<!-- @todo -->
+1. **Design the Website on GitPod**:
+   - Open GitPod and create a new workspace.
+   - Design and develop your website within the GitPod environment.
+
+2. **Push the Website to GitHub**:
+   - Initialize a Git repository in your GitPod workspace:
+     ```sh
+     git init
+     ```
+   - Add all the project files:
+     ```sh
+     git add .
+     ```
+   - Commit the changes with a meaningful message:
+     ```sh
+     git commit -m "Initial commit"
+     ```
+   - Add your GitHub repository as a remote:
+     ```sh
+     git remote add origin <your-github-repo-url>
+     ```
+   - Push the changes to GitHub:
+     ```sh
+     git push -u origin main
+     ```
+
+## Deployment Steps
+<hr>
+
+1. **Design the Website on GitPod**:
+   - Open GitPod and create a new workspace.
+   - Design and develop your website within the GitPod environment.
+
+2. **Push the Website to GitHub**:
+   - Initialize a Git repository in your GitPod workspace:
+     ```sh
+     git init
+     ```
+   - Add all the project files:
+     ```sh
+     git add .
+     ```
+   - Commit the changes with a meaningful message:
+     ```sh
+     git commit -m "Initial commit"
+     ```
+   - Add your GitHub repository as a remote:
+     ```sh
+     git remote add origin <your-github-repo-url>
+     ```
+   - Push the changes to GitHub:
+     ```sh
+     git push -u origin main
+     ```
+
+3. **Deploy to GitHub Pages**:
+   - Go to your GitHub repository on GitHub.
+   - Navigate to the repository settings.
+   - Scroll down to the "GitHub Pages" section.
+   - Under "Source", select the branch you want to deploy (usually `main` or `gh-pages`).
+   - Click "Save".
+
+Your website should now be live on GitHub Pages. You can access it via the URL provided in the GitHub Pages section of your repository settings.
+
+
+## Credits and Acknowledgments
+<hr>
+I would like to express my heartfelt gratitude to my mentor for his invaluable guidance and advice throughout this project. 
+
+Additionally, I extend my sincere thanks to my tutors, especially Miguel Ortega Legorreta, for their exceptional teaching and encouragement. Your dedication and expertise have greatly contributed to my learning journey.
+
+
 
 
 
