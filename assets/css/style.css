@@ -28,7 +28,8 @@ h1 {
     color: var(--gold-color);
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: var(--h1-font-family);
     letter-spacing: .2em;
 }
@@ -172,9 +173,6 @@ body {
     border-radius: 50%;
     margin: 4% auto;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
-}
-
-.trainer {
     background-image: url("../images/trainer3.jpg");
     background-size: cover;
 }
@@ -214,6 +212,11 @@ body {
 .gym-gallery {
     width: 70%;
     margin: 30px auto;
+}
+
+.gym-images-container {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .image-container {
@@ -268,7 +271,7 @@ body {
     background-color: #fafafa;
     margin-bottom: 20px;
     padding: 10px;
-    word-wrap: break-word;
+    overflow: hidden;
 }
 
 .pt-staff-container:hover {
@@ -375,8 +378,8 @@ footer .col-sm-3 {
     margin: 20px auto;
 }
 
-/* Mobile Media Queries */
-@media only screen and (max-width: 768px) {
+/* Extra small devices (phones, 0 - 575px) */
+@media (max-width: 575px) {
 
     /* Global Setting */
     h1 {
@@ -384,7 +387,11 @@ footer .col-sm-3 {
     }
 
     section {
-        height: 100vh;
+        height: 1500px;
+    }
+
+    #about {
+        height: 1600px;
     }
 
     /* About Section */
@@ -423,51 +430,333 @@ footer .col-sm-3 {
     }
 }
 
-/* Tablet Media Query */
-@media only screen and (min-width: 768px) and (max-width: 1824px) {
+/* Mobile Media Queries */
+@media (min-width: 576px) and (max-width: 767px) {
+
+    /* Global Setting */
+    h1 {
+        text-align: center;
+    }
+
+    section {
+        height: 1500px;
+    }
+
+    #about {
+        height: 1600px;
+    }
+
+    /* About Section */
+    .container .background-style {
+        height: 100%;
+    }
+
+    .trainer {
+        width: 60%;
+        margin: 20px auto;
+    }
+
+    /* The Gym Section */
+    .image-container {
+        width: 100%;
+    }
+
+    /* Team Section */
+    .pt-staff-container {
+        height: 340px;
+    }
+
+    /* Contact Section */
+    gmp-map {
+        height: 600px;
+        width: 100%;
+    }
+
+    /* Footer Section */
+    footer .container {
+        width: 100%;
+    }
+
+    footer .col-sm-3 {
+        flex: 0 0 25%;
+    }
+}
+
+/* Medium devices (tablets, 768px - 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* Global Setting */
+    h1 {
+        text-align: center;
+        margin-top: 10px;
+    }
+
     section {
         height: 100vh;
     }
 
-    /* About section */
+    /* About Section */
     #about .container {
-        padding-top: 60px;
+        height: 100%;
+    }
+
+    .container .background-style {
+        height: 100%;
+    }
+
+    .about-info h4 {
+        margin-top: 0px;
+    }
+
+    .display {
+        display: none;
     }
 
     .about-info p {
-        font-size: 1.6em;
-        line-height: 1.4em;
+        font-size: 1em;
     }
 
     .trainer {
-        height: 160px;
-        width: 220px;
+        width: 30%;
+        height: 100px;
+        margin: 20px auto;
+    }
+
+    .personal-trainer-list li {
+        font-size: 0.6em;
+    }
+
+    /* The Gym Section */
+    #gym .container {
+        height: 100%;
+    }
+
+    .image-container {
+        width: 23%;
+        height: 200px;
+    }
+
+    .image-container:nth-child(1),
+    .image-container:nth-child(3) {
+        display: none;
+    }
+
+    /* Team Section */
+    .pt-staff-container {
+        height: 200px;
+    }
+
+    #team p {
+        font-size: 0.8em;
+    }
+
+    /* Contact Section */
+    #contact {
+        margin-bottom: 10px;
+    }
+
+    gmp-map {
+        height: 260px;
+        width: 100%;
+    }
+
+    .contact-form input {
+        height: 20px;
+    }
+
+    .contact-form textarea {
+        height: 50px;
+    }
+
+    footer {
+        margin-top: 100px;
+    }
+}
+
+/* iPad Air 4th generation (2020) and later in portrait orientation */
+@media only screen and (min-device-width: 820px) and (max-device-width: 820px) and (min-device-height: 1180px) and (max-device-height: 1180px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+
+    /* Global Setting */
+    h1 {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .display {
+        display: block;
+    }
+
+    /* about */
+    #about {
+        padding-top: 60px;
+    }
+
+    .about-info h4:nth-of-type(2) {
+        margin-top: 30px;
+    }
+
+    .about-info p {
+        font-size: 1.4em;
     }
 
     .personal-trainer-list li {
         font-size: 1.6em;
     }
 
-    /* The Gym Section */
-    #gym .container {
-        padding-top: 60px;
+    /* gym */
+    .image-container:nth-child(3) {
+        display: block;
     }
 
-    .container .background-style {
-        height: 100vh;
+    .gym-images-container {
+        flex-direction: column;
     }
 
     .image-container {
-        height: 380px;
+        width: 100%;
+        height: 180px;
     }
 
-    /* The Team Section */
-    #team .container {
-        /* padding-top: 60px; */
+    /* Team Section */
+    #team h2 {
+        margin-bottom: 30px;
+    }
+
+    .pt-staff-container {
+        height: 500px;
+    }
+
+    #team p {
+        font-size: 1.2em;
+    }
+
+    /* Contact Section */
+    #contact {
+        height: 600px;
+    }
+
+    gmp-map {
+        height: 400px;
+        width: 100%;
+    }
+
+    .contact-form input {
+        height: 30px;
+    }
+
+    .contact-form textarea {
+        height: 100px;
+    }
+}
+
+/* ipad pro specific portrait */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (min-device-height: 1366px) and (max-device-height: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+
+    /* Global Setting */
+    h1 {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    /* about */
+    #about {
+        padding-top: 60px;
+    }
+
+    .about-info p {
+        font-size: 1.9em;
+    }
+
+    .personal-trainer-list li {
+        font-size: 1.8em;
+    }
+
+    /* gym */
+    .gym-images-container {
+        flex-direction: column;
+    }
+
+    .image-container {
+        width: 100%;
+        height: 180px;
+    }
+
+    /* Team Section */
+    #team {
+        padding-top: 60px;
     }
 
     #team h2 {
-        margin-bottom: 60px;
+        margin-bottom: 30px;
+    }
+
+    .pt-staff-container {
+        height: 550px;
+    }
+
+    #team p {
+        font-size: 1.6em;
+    }
+
+    /* Contact Section */
+    #contact {
+        height: 600px;
+    }
+
+    gmp-map {
+        height: 400px;
+        width: 100%;
+    }
+
+    .contact-form input {
+        height: 30px;
+    }
+
+    .contact-form textarea {
+        height: 100px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1366px) {
+    section {
+        height: 100vh;
+    }
+
+    .about-info p {
+        font-size: 1.8em;
+    }
+
+    .personal-trainer-list li {
+        font-size: 1.8em;
+    }
+
+    /* gym */
+    .gym-images-container {
+        flex-direction: row;
+    }
+
+    .container .background-style {
+        height: 100%;
+    }
+
+    .image-container {
+        width: 100%;
+        height: 130px;
+    }
+
+    /* Team Section */
+    #team {
+        height: 100vh;
+        padding-top: 60px;
+    }
+
+    #team h2 {
+        margin-bottom: 30px;
+    }
+
+    .pt-staff-container {
+        height: 400px;
     }
 
     #team p {
@@ -476,10 +765,19 @@ footer .col-sm-3 {
 
     /* Contact Section */
     #contact {
-        height: 900px;
+        height: 600px;
     }
 
-    #contact .container {
-        padding-top: 60px;
+    gmp-map {
+        height: 400px;
+        width: 100%;
+    }
+
+    .contact-form input {
+        height: 30px;
+    }
+
+    .contact-form textarea {
+        height: 100px;
     }
 }
