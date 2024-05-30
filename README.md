@@ -144,6 +144,22 @@ During the development of this project, AI-powered tools were utilized to assist
 
 ### Specific AI Contributions
 - **Bootstrap Navbar Transparency**: AI provided guidance on how to adjust the `background-color` property using RGBA values to achieve the desired level of transparency in the navbar.
+- **Media Queries**: AI provided me with the media queries for Ipad Pro. I was still unable to get the Ipad Pro media query to work in landscape. I used the below code
+
+```
+@media only screen 
+  and (min-device-width: 1366px) 
+  and (max-device-width: 1366px) 
+  and (min-device-height: 1024px) 
+  and (max-device-height: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: landscape) {
+    /* Your CSS rules here */
+    body {
+        background-color: lightgreen; /* Example rule for testing */
+    }
+}
+```
 
 ## Testing
 [w3c Markup Validation](https://validator.w3.org/)

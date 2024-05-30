@@ -89,9 +89,9 @@ body {
 }
 
 .nav-link:hover {
-    border-right: 2px solid #dc3545;
+    border-bottom: 2px solid #dc3545;
     color: #dc3545;
-    font-size: 1.3em;
+    font-size: 1.1em;
 }
 
 /* ---------------------------------------hero section */
@@ -338,6 +338,10 @@ footer {
     background-color: #eae4e4;
     display: flex;
     align-items: center;
+}
+
+footer i {
+    color: grey;
 }
 
 footer .container {
@@ -673,12 +677,12 @@ footer .col-sm-3 {
 
     /* gym */
     .gym-images-container {
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .image-container {
-        width: 100%;
-        height: 180px;
+        width: 45%;
+        height: 380px;
     }
 
     /* Team Section */
@@ -741,8 +745,8 @@ footer .col-sm-3 {
     }
 
     .image-container {
-        width: 100%;
-        height: 130px;
+        width: 45%;
+        height: 280px;
     }
 
     /* Team Section */
