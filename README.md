@@ -122,10 +122,12 @@ Here is an example of how to apply colours and fonts:
 ### Images
 The images used in this project are sourced from various providers and are used under their respective licenses. Here are the details:
 
-- **Logo**:
-  - **Source**: [Pixabay](https://pixabay.com/illustrations/ai-generated-woman-workout-gym-8703055/)
-  - **Artist**: [Artist's Name](Ai Generated Woman Workout royalty-free stock illustration.)
+- **Hero Image**:
+  - **Source**: [Pixabay](https://pixabay.com/photos/man-workout-dumbbell-muscle-biceps-5883500/)
+  - **Artist**: [Artist's Name](Ai Generated Man Workout royalty-free stock illustration.)
   - **License**: [License Details](https://pixabay.com/service/license-summary/)
+
+- All the other images were from a friend who owns a gym in Weston Super Mare
 
 ## Future features
 - Navbar style when scrolling
