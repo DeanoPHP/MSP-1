@@ -166,10 +166,6 @@ body {
     color: var(--primary-font-color);
 }
 
-.about-info button {
-    margin: 50px 30px;
-}
-
 .trainer {
     width: 50%;
     height: 150px;
@@ -388,7 +384,7 @@ footer .col-sm-3 {
     }
 
     section {
-        height: 1500px;
+        height: 100vh;
     }
 
     /* About Section */
@@ -427,38 +423,63 @@ footer .col-sm-3 {
     }
 }
 
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+/* Tablet Media Query */
+@media only screen and (min-width: 768px) and (max-width: 1824px) {
     section {
-        height: auto;
+        height: 100vh;
     }
 
-    #contact .container,
+    /* About section */
     #about .container {
-        margin-bottom: 30px;
-    }
-}
-
-/* ipad mini */
-@media only screen and (min-width: 1180px) and (max-width: 1180px) {
-    section {
-        height: auto;
+        padding-top: 60px;
     }
 
-    #contact .container,
-    #about .container {
-        margin-bottom: 30px;
-    }
-}
-
-/* For iPad Pro 1366x1024 - Landscape */
-@media only screen and (min-width: 1366px) and (max-width: 1366px) and (min-height: 1024px) and (max-height: 1024px) and (orientation: landscape) {
-    section {
-        height: auto;
+    .about-info p {
+        font-size: 1.6em;
+        line-height: 1.4em;
     }
 
-    #contact .container,
-    #about .container {
-        margin-bottom: 30px;
+    .trainer {
+        height: 160px;
+        width: 220px;
+    }
+
+    .personal-trainer-list li {
+        font-size: 1.6em;
+    }
+
+    /* The Gym Section */
+    #gym .container {
+        padding-top: 60px;
+    }
+
+    .container .background-style {
+        height: 100vh;
+    }
+
+    .image-container {
+        height: 380px;
+    }
+
+    /* The Team Section */
+    #team .container {
+        /* padding-top: 60px; */
+    }
+
+    #team h2 {
+        margin-bottom: 60px;
+    }
+
+    #team p {
+        font-size: 1.4em;
+    }
+
+    /* Contact Section */
+    #contact {
+        height: 900px;
+    }
+
+    #contact .container {
+        padding-top: 60px;
     }
 }
