@@ -266,6 +266,7 @@ body {
 /* ---------------------------------------The Team */
 #team h2 {
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .pt-staff-container {
@@ -511,10 +512,6 @@ footer .col-sm-3 {
         height: 100%;
     }
 
-    .container .background-style {
-        height: 100%;
-    }
-
     .about-info h4 {
         margin-top: 0px;
     }
@@ -755,10 +752,6 @@ footer .col-sm-3 {
 
     .gym-images-container {
         flex-direction: row;
-    }
-
-    .container .background-style {
-        height: 100vh;
     }
 
     .image-container {
