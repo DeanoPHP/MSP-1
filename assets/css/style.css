@@ -722,14 +722,14 @@ footer .col-sm-3 {
     }
 }
 
-/* Extra large devices (large desktops, 1200px and up) */
+/* Extra large devices (large desktops, 1366px and up) */
 @media (min-width: 1366px) {
     section {
         height: 100vh;
     }
 
     .about-info p {
-        font-size: 1.8em;
+        font-size: 1.5em;
     }
 
     .personal-trainer-list li {
@@ -753,7 +753,7 @@ footer .col-sm-3 {
     /* Team Section */
     #team {
         height: 100vh;
-        padding-top: 60px;
+        padding-top: 160px;
     }
 
     #team h2 {
@@ -770,7 +770,9 @@ footer .col-sm-3 {
 
     /* Contact Section */
     #contact {
-        height: 600px;
+        height: 100vh;
+        padding-top: 260px;
+        margin-bottom: 20px;
     }
 
     gmp-map {
