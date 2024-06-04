@@ -25,7 +25,7 @@
 }
 
 section {
-    height: 100vh;
+    min-height: 100vh;
     max-width: 1400px;
     margin: auto;
 }
@@ -59,7 +59,6 @@ body {
 }
 
 .about-info,
-.founder,
 .gym-info,
 .team-info,
 .contact-info,
@@ -294,6 +293,10 @@ body {
 }
 
 /* ---------------------------------------Contact */
+#contact {
+    overflow: auto;
+}
+
 .contact-form label {
     font-size: 1em;
     letter-spacing: .1em;
@@ -324,6 +327,11 @@ body {
 .map-container {
     margin-top: 120px;
     max-width: 100%;
+    height: 100%;
+}
+
+iframe {
+    width: 100%;
     height: 90%;
 }
 
@@ -331,10 +339,6 @@ body {
     color: red;
 }
 
-gmp-map {
-    height: 90%;
-    margin-bottom: 30px;
-}
 
 /* ---------------------------------------footer */
 footer {
@@ -426,9 +430,12 @@ footer .col-sm-3 {
     }
 
     /* Contact Section */
-    gmp-map {
-        height: 600px;
-        width: 100%;
+    .map-container {
+        height: 700px;
+    }
+
+    iframe {
+        height: 100%;
     }
 
     /* Footer Section */
@@ -458,10 +465,6 @@ footer .col-sm-3 {
     }
 
     /* About Section */
-    .container .background-style {
-        height: 100%;
-    }
-
     .trainer {
         width: 60%;
         margin: 20px auto;
@@ -478,10 +481,6 @@ footer .col-sm-3 {
     }
 
     /* Contact Section */
-    gmp-map {
-        height: 600px;
-        width: 100%;
-    }
 
     /* Footer Section */
     footer .container {
@@ -491,93 +490,6 @@ footer .col-sm-3 {
 
     footer .col-sm-3 {
         flex: 0 0 25%;
-    }
-}
-
-/* Medium devices (tablets, 768px - 991px) */
-@media (min-width: 768px) and (max-width: 991px) {
-
-    /* Global Setting */
-    h1 {
-        text-align: center;
-        margin-top: 10px;
-    }
-
-    section {
-        height: 100vh;
-    }
-
-    /* About Section */
-    #about .container {
-        height: 100%;
-    }
-
-    .about-info h4 {
-        margin-top: 0px;
-    }
-
-    .display {
-        display: none;
-    }
-
-    .about-info p {
-        font-size: 1em;
-    }
-
-    .trainer {
-        width: 30%;
-        height: 100px;
-        margin: 20px auto;
-    }
-
-    .personal-trainer-list li {
-        font-size: 0.6em;
-    }
-
-    /* The Gym Section */
-    #gym .container {
-        height: 100%;
-    }
-
-    .image-container {
-        width: 23%;
-        height: 200px;
-    }
-
-    .image-container:nth-child(1),
-    .image-container:nth-child(3) {
-        display: none;
-    }
-
-    /* Team Section */
-    .pt-staff-container {
-        height: 200px;
-    }
-
-    #team p {
-        font-size: 0.8em;
-    }
-
-    /* Contact Section */
-    #contact {
-        margin-bottom: 10px;
-    }
-
-    gmp-map {
-        height: 260px;
-        width: 100%;
-    }
-
-    .contact-form input {
-        height: 20px;
-    }
-
-    .contact-form textarea {
-        height: 50px;
-    }
-
-    footer {
-        margin-top: 100px;
     }
 }
 
@@ -617,12 +529,13 @@ footer .col-sm-3 {
     }
 
     .gym-images-container {
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: center;
     }
 
     .image-container {
-        width: 100%;
-        height: 180px;
+        width: 45%;
+        height: 380px;
     }
 
     /* Team Section */
@@ -640,12 +553,7 @@ footer .col-sm-3 {
 
     /* Contact Section */
     #contact {
-        height: 600px;
-    }
-
-    gmp-map {
-        height: 400px;
-        width: 100%;
+        min-height: 800px;
     }
 
     .contact-form input {
@@ -682,6 +590,7 @@ footer .col-sm-3 {
     /* gym */
     .gym-images-container {
         flex-direction: row;
+        justify-content: center;
     }
 
     .image-container {
@@ -708,12 +617,8 @@ footer .col-sm-3 {
 
     /* Contact Section */
     #contact {
-        height: 600px;
-    }
-
-    gmp-map {
-        height: 400px;
-        width: 100%;
+        padding-top: 100px;
+        min-height: 800px;
     }
 
     .contact-form input {
@@ -725,6 +630,21 @@ footer .col-sm-3 {
     }
 }
 
+/* Ipad pro landscape */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: landscape) {
+    .image-container {
+        height: 380px;
+    }
+    
+    #team {
+        padding-top: 100px;
+    }
+
+    #contact {
+        padding-top: 100px;
+    }
+}
+  
 /* Extra large devices (large desktops, 1366px and up) */
 @media (min-width: 1366px) {
     .container {
@@ -734,7 +654,7 @@ footer .col-sm-3 {
     }
     
     section {
-        height: 100vh;
+        min-height: 100vh;
     }
 
     .about-info p {
@@ -760,7 +680,8 @@ footer .col-sm-3 {
 
     /* Team Section */
     #team {
-        height: 100vh;
+        padding-top: 80px;
+        min-height: 100vh;
     }
 
     #team h2 {
@@ -772,9 +693,8 @@ footer .col-sm-3 {
     }
 
     /* Contact Section */
-    gmp-map {
-        height: 400px;
-        width: 100%;
+    #contact {
+        min-height: 100vh;
     }
 
     .contact-form input {
@@ -783,5 +703,9 @@ footer .col-sm-3 {
 
     .contact-form textarea {
         height: 100px;
+    }
+
+    iframe {
+        height: 80%;
     }
 }
