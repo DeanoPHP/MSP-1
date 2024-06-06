@@ -259,7 +259,7 @@ git clone https://github.com/DeanoPHP/MSP-1.git
 
 4. Clone your forked repository to your local machine:
 ```sh
-git clone https://github.com/your-username/your-repository-name.git
+git clone https://github.com/DeanoPHP/MSP-1.git
 ```
 
 5. Navigate to the cloned directory
