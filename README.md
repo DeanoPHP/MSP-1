@@ -10,29 +10,50 @@ This is a fictitious gym website created as part of a Web Development course wit
 
 ## User Experience (UX)
 
+## User Stories
+This section outlines the user stories that guided the development of our project. User stories help us focus on the user’s perspective and needs, ensuring that the features developed are practical and beneficial for the user.
+
 ### As a visitor
-- As a visitor I want to be able to easily navigate the website so I can find information about the gym services, classes, opening times, and membership fees.
-- As a visitor I want to see a well-organized presentation of all fitness classes before I join.
-- As a visitor I want the website to be visually appealing and professionally styled so that I have a positive impression of the gym.
-- As a visitor I want to be able to find the contact information easily so I can contact the gym to arrange a visit.
-- As a visitor I want to easily find contact information so I can contact the gym with any questions.
-- As a visitor I want to see a map of the gym's location.
-- As a visitor I want to see a gallery showing the gym's facilities so I can see whether it meets my needs.
-- As a visitor I would like to information about the gym staff.<br><br>
-- As a visitor I want to to be able to use all my devices to view the gyms website so responsive design is a must.
+- **1 As a visitor** I want to be able to easily navigate the website so I can find information about the gym.
+- **2 As a visitor** I want the website to be visually appealing and professionally styled so that I have a positive impression of the gym.
+- **3 As a visitor** I want to easily find contact information so I can contact the gym with any questions.
+- **4 As a visitor** I want to see a map of the gym's location.
+- **5 As a visitor** I want to see a gallery showing the gym's facilities so I can see whether it meets my needs.
+- **6 As a visitor** I would like to view information about the gym staff.<br><br>
+- **7 As a visitor** I would like to use any of my devices to view the gyms website.
 
 ### As a gym owner 
-- As a gym owner, I want to feature high-quality images and detailed descriptions of our specialized equipment and facilities so that potential members can see we are well-equipped for serious bodybuilders.
+- **1 As a gym owner**, I want to feature high-quality images and detailed descriptions of our specialized equipment and facilities so that potential members can see we are well-equipped for serious bodybuilders.
 
-- As a gym owner, I want to highlight our personalized training programs on the website, including details about our expert trainers and their bodybuilding expertise, to attract members looking for guidance and advanced workout strategies.
+- **2 As a gym owner**, I want to to give the user a clear way to contact the gym.
 
-- As a gym owner, I want to to give the user a clear way to join
+- **3 As a gym owner**, I want to give the user a clear way to book online.
+
+- **4 As a gym owner**, I want to display the gyms location on a map.
+
+- **5 As a gym owner**, I want to give the user information about the gym staff.
 
 ### As a returning user 
-- As a returning user, I want to quickly book personal training sessions through the website, so I can ensure consistent progress and availability with my preferred trainers.
-- As a returning user, I want to easily view and manage my membership details, such as renewal dates and payment methods, to keep my account in good standing without any administrative hassles.
-- As a returning user, I want to easily find and sign up for upcoming events and competitions hosted by the gym, ensuring I never miss out on key community activities.
-- As a returning user, I want to easily provide feedback about the gym's facilities, trainers, or services through the website, to ensure that my voice is heard and that the quality of the gym continues to improve.
+- **1 As a returning user**, I want to quickly book personal training sessions through the website, so I can ensure consistent progress and availability with my preferred trainers.
+- **2 As a returning user**, I want to easily find and sign up for upcoming events and competitions hosted by the gym, ensuring I never miss out on key community activities.
+
+### Implementation of User Stories
+- **Clear Natigation** - Because this is a single page navigation website I have made the navigation at the top of the page fixed so no matter which section the user is on they will always have the navigation available to them.
+
+- **Visually Appealing**
+
+## Future features
+- Navbar style when scrolling
+- Gallery with better functionality
+- Register and login system
+- Bookings system
+- Access My Membership Information
+- Track My Workout Progress
+- Purchase Supplements Online
+- Online support
+- Show a list of classes
+- Give the user the ability to edit there online details
+- Give the user the ability to leave a review about there experience at Gold's Gym
 
 ## Skeleton
 Wireframes were designed using [Balsamiq](https://balsamiq.cloud/#)
@@ -62,7 +83,7 @@ The website for Gold's Gym is crafted as a single-page layout to provide a strea
 - Responsive Navigation: Utilizing Bootstrap, the navbar is designed to be responsive across devices. On smaller screens, it transforms into a hamburger menu, making it functional and space-efficient without sacrificing accessibility.
 
 ### Section Design
-Gym Section: The gym section features a black background, which not only adds visual depth but also creates a seamless transition from the dark tones of the hero image. This design decision maintains a cohesive flow throughout the site, preventing abrupt changes in the visual experience.
+Gym Section: The gym section features a Gold background, which not only adds visual depth but also creates a seamless transition from the gold tones of the header tags. This design decision maintains a cohesive flow throughout the site, preventing abrupt changes in the visual experience.
 
 ### Color Palette
   - Gold: #C7A64A - Used for h1 tags and logo;
@@ -129,16 +150,6 @@ The images used in this project are sourced from various providers and are used 
 
 - All the other images were from a friend who owns a gym in Weston Super Mare
 
-## Future features
-- Navbar style when scrolling
-- Gallery with better functionality
-- Register and login system
-- Bookings system
-- Access My Membership Information
-- Track My Workout Progress
-- Purchase Supplements Online
-- Online support
-
 ## Assistance from AI
 During the development of this project, AI-powered tools were utilized to assist with including the design and implementation of a transparent navbar using Bootstrap. This assistance helped to optimize the solution and implement best practices in web development.
 
@@ -160,6 +171,9 @@ During the development of this project, AI-powered tools were utilized to assist
     }
 }
 ```
+
+## Fix
+While checking my website it became apparent that the min-device-width and min-device-height was deprecated so I changed my media queries to min-width or min-height.
 
 ## Testing
 [w3c Markup Validation](https://validator.w3.org/)
