@@ -14,33 +14,57 @@ This is a fictitious gym website created as part of a Web Development course wit
 This section outlines the user stories that guided the development of our project. User stories help us focus on the user’s perspective and needs, ensuring that the features developed are practical and beneficial for the user.
 
 ### As a visitor
-- **1 As a visitor** I want to be able to easily navigate the website so I can find information about the gym.
-- **2 As a visitor** I want the website to be visually appealing and professionally styled so that I have a positive impression of the gym.
-- **3 As a visitor** I want to easily find contact information so I can contact the gym with any questions.
-- **4 As a visitor** I want to see a map of the gym's location.
-- **5 As a visitor** I want to see a gallery showing the gym's facilities so I can see whether it meets my needs.
-- **6 As a visitor** I would like to view information about the gym staff.<br><br>
-- **7 As a visitor** I would like to use any of my devices to view the gyms website.
+1. **As a visitor** I want to be able to easily navigate the website so I can find information about the gym.
+2. **As a visitor** I want the website to be visually appealing and professionally styled so that I have a positive impression of the gym.
+3. **As a visitor** I want to easily find contact information so I can contact the gym with any questions.
+4. **As a visitor** I want to see a map of the gym's location.
+5. **As a visitor** I want to see a gallery showing the gym's facilities so I can see whether it meets my needs.
+6. **As a visitor** I would like to view information about the gym staff.<br><br>
+7. **As a visitor** I would like to use any of my devices to view the gyms website.
 
 ### As a gym owner 
-- **1 As a gym owner**, I want to feature high-quality images and detailed descriptions of our specialized equipment and facilities so that potential members can see we are well-equipped for serious bodybuilders.
+1. **As a gym owner**, I want to feature high-quality images and detailed descriptions of our specialized equipment and facilities so that potential members can see we are well-equipped for serious bodybuilders.
 
-- **2 As a gym owner**, I want to to give the user a clear way to contact the gym.
+2. **As a gym owner**, I want to to give the user a clear way to contact the gym.
 
-- **3 As a gym owner**, I want to give the user a clear way to book online.
+3. **As a gym owner**, I want to give the user a clear way to book online.
 
-- **4 As a gym owner**, I want to display the gyms location on a map.
+4. **As a gym owner**, I want to display the gyms location on a map.
 
-- **5 As a gym owner**, I want to give the user information about the gym staff.
+5. **As a gym owner**, I want to give the user information about the gym staff.
 
 ### As a returning user 
-- **1 As a returning user**, I want to quickly book personal training sessions through the website, so I can ensure consistent progress and availability with my preferred trainers.
-- **2 As a returning user**, I want to easily find and sign up for upcoming events and competitions hosted by the gym, ensuring I never miss out on key community activities.
+1. **As a returning user**, I want to quickly book personal training sessions through the website, so I can ensure consistent progress and availability with my preferred trainers.
+2. **As a returning user**, I want to easily find and sign up for upcoming events and competitions hosted by the gym, ensuring I never miss out on key community activities.
 
 ### Implementation of User Stories
-- **Clear Natigation** - Because this is a single page navigation website I have made the navigation at the top of the page fixed so no matter which section the user is on they will always have the navigation available to them.
+- **Clear Natigation**  Because this is a single page navigation website I have made the navigation at the top of the page fixed so no matter which section the user is viewing they will always have the navigation available to them.
 
 - **Visually Appealing**
+  - **Bootstrap Navbar with Hamburger Menu**: We utilized Bootstrap's responsive navbar component to ensure easy navigation across all device sizes. The hamburger menu on smaller screens allows for a clean and uncluttered interface while providing full navigation capability.
+
+  - **Hero Image**: A large, high-quality hero image greets users upon arrival, setting a welcoming and professional tone. This visual centerpiece captures attention and directly relates to the core theme of the website.
+
+  - **Large, Prominent Buttons**: To enhance user interaction, we designed large buttons that stand out against the background. These are strategically placed to guide users naturally through the workflow, increasing usability and accessibility.
+ 
+  - **Modals for Interaction**: For interactions that require more detail, such as forms or additional information, we implemented modals. This keeps the user on the same page, reducing load times and maintaining context, which is particularly beneficial for mobile users.
+
+  - **Contact Form**:
+    We provide users with a convenient way to contact the gym through our easy-to-use contact form.  
+    ![Contact Form](assets/images/contact-form.png)
+
+  - **Map of the Gym**:
+    A Google Maps iframe is integrated to clearly show the gym's location, making it easier for users to find us.  
+    ![Gym Location](assets/images/map.png)
+
+  - **Meet the Team**:
+    We've introduced a section dedicated to our gym staff, allowing users to learn more about the team that makes our gym special.  
+    ![Gym Staff](assets/images/the-team.png)
+
+  - **The Gym**:
+    As part of our commitment to transparency and user engagement, we've showcased our gym equipment through a simple image gallery. Plans to enhance this gallery with more advanced features are in the works.  
+    ![Gallery](assets/images/the-gym.png)
+
 
 ## Future features
 - Navbar style when scrolling
