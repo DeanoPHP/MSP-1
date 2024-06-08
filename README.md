@@ -49,21 +49,21 @@ This section outlines the user stories that guided the development of our projec
  
   - **Modals for Interaction**: For interactions that require more detail, such as forms or additional information, we implemented modals. This keeps the user on the same page, reducing load times and maintaining context, which is particularly beneficial for mobile users.
 
-  - **Contact Form**:
-    We provide users with a convenient way to contact the gym through our easy-to-use contact form.  
-    ![Contact Form](assets/images/contact-form.png)
+- **Contact Form**:
+We provide users with a convenient way to contact the gym through our easy-to-use contact form.  
+![Contact Form](assets/images/contact-form.png)
 
-  - **Map of the Gym**:
-    A Google Maps iframe is integrated to clearly show the gym's location, making it easier for users to find us.  
-    ![Gym Location](assets/images/map.png)
+- **Map of the Gym**:
+A Google Maps iframe is integrated to clearly show the gym's location, making it easier for users to find us.  
+![Gym Location](assets/images/map.png)
 
-  - **Meet the Team**:
-    We've introduced a section dedicated to our gym staff, allowing users to learn more about the team that makes our gym special.  
-    ![Gym Staff](assets/images/the-team.png)
+- **Meet the Team**:
+We've introduced a section dedicated to our gym staff, allowing users to learn more about the team that makes our gym special.  
+![Gym Staff](assets/images/the-team.png)
 
-  - **The Gym**:
-    As part of our commitment to transparency and user engagement, we've showcased our gym equipment through a simple image gallery. Plans to enhance this gallery with more advanced features are in the works.  
-    ![Gallery](assets/images/the-gym.png)
+- **The Gym**:
+As part of our commitment to transparency and user engagement, we've showcased our gym equipment through a simple image gallery. Plans to enhance this gallery with more advanced features are in the works.  
+![Gallery](assets/images/the-gym.png)
 
 
 ## Future features
