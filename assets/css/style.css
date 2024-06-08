@@ -7,6 +7,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* ---------------------------------------Global Variables */
 :root {
     --link-font-color: #fafafa;
@@ -494,7 +498,7 @@ footer .col-sm-3 {
 }
 
 /* iPad Air 4th generation (2020) and later in portrait orientation */
-@media only screen and (min-device-width: 820px) and (max-device-width: 820px) and (min-device-height: 1180px) and (max-device-height: 1180px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+@media only screen and (min-width: 820px) and (max-width: 820px) and (min-height: 1180px) and (max-height: 1180px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
 
     /* Global Setting */
     h1 {
@@ -566,7 +570,7 @@ footer .col-sm-3 {
 }
 
 /* ipad pro specific portrait */
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (min-device-height: 1366px) and (max-device-height: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+@media only screen and (min-width: 1024px) and (max-width: 1024px) and (min-height: 1366px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
 
     /* Global Setting */
     h1 {
@@ -631,7 +635,7 @@ footer .col-sm-3 {
 }
 
 /* Ipad pro landscape */
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: landscape) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: landscape) {
     .image-container {
         height: 380px;
     }

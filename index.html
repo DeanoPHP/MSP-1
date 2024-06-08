@@ -14,7 +14,9 @@
         <link rel="preload" href="assets/images/man.jpg" as="image">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
             integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
         <link rel="stylesheet" href="assets/css/style.css">
         <title>Gold's Gym</title>
@@ -210,7 +212,7 @@
                             <p><span class="bold">Email:</span> golds-gym@golds.com</p>
                             <p><span class="bold">Tel:</span> 07398654563</p>
                             <button type="button" class="btn btn-danger btn-lg" data-bs-toggle="modal"
-                                data-bs-target="#join">Book Now</button>
+                                data-bs-target="#book">Book Now</button>
                         </div>
                     </div>
                 </div>
@@ -296,8 +298,8 @@
         </footer>
 
         <!-- Modal -->
-        <div class="modal fade" id="book" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-            role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal fade" id="book" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -308,22 +310,22 @@
                         <form id="bookForm" action="form-booking-response.html" method="GET">
                             <div class="mb-3">
                                 <label for="name" class="form-label">Enter Your Name</label>
-                                <input class="form-control" type="text" name="name" id="name" required/>
+                                <input class="form-control" type="text" name="name" id="name" required />
                             </div>
 
                             <div class="mb-3">
                                 <label for="emailInput" class="form-label">Enter Your Email</label>
-                                <input class="form-control" type="email" name="email" id="emailInput" required/>
+                                <input class="form-control" type="email" name="email" id="emailInput" required />
                             </div>
 
                             <div class="mb-3">
                                 <label for="timeslot" class="form-label">Enter a timeslot</label>
-                                <input class="form-control" type="time" name="timeslot" id="timeslot" required/>
+                                <input class="form-control" type="time" name="timeslot" id="timeslot" required />
                             </div>
 
                             <div class="mb-3">
                                 <label for="date" class="form-label">Select a date</label>
-                                <input class="form-control" type="date" name="date" id="date" required/>
+                                <input class="form-control" type="date" name="date" id="date" required />
                             </div>
                         </form>
                     </div>
