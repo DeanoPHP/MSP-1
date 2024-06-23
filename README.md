@@ -241,6 +241,12 @@ form-submitted.html
 
 ![form-submitted.html](./assets/images/testing/submitted.png)
 
+### Improvements/Bug Fixes
+
+- **Cross-Browser and Device Compatibility**: While viewing my website using Developer Tools, I noticed it didn't look good across different web browsers and devices. To address this issue, I used media queries to ensure a responsive and consistent design.
+
+- **Improved Load Time**: I observed that the website took a while to load because the hero image was quite large. To speed up the loading time, I used the `preload` attribute in the `<head>` section, which helps load the site faster.
+
 ## Deployment
 <hr>
 
